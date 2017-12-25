@@ -4,6 +4,7 @@ Nutzt zum Teil noch mysql_, nicht mysqli_.
 
 Es ist ein sehr einfaches Blogging-Script, die alte readme.txt gibt es unten :)
 
+---
 
 Installationsanleitung: New-Z
 
