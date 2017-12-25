@@ -14,11 +14,11 @@ $user = "";
 $passwrd = ""; 
 $db = ""; 
   
-$connection=mysqli_connect($host, $user, $passwrd) or die(mysql_error());
+$connection=mysql_connect($host, $user, $passwrd) or die(mysql_error());
   
 if(!$connection){
         die("Es konnte keine Verbindung zur Datenbank hergestellt werden"); 
 } 
  
-mysqli_select_db($db, $connection) or die(mysqli_error());
+mysql_select_db($db, $connection) or die(mysql_error());
 ?>
